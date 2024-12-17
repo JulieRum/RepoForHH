@@ -77,7 +77,7 @@ public class PersonDao {
     }
 
     public Person findById(int id) {
-        logger.info("Executing 'findById'");
+        logger.info("Executing 'findById' {}", id);
         Person person = null;
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM " +
@@ -98,7 +98,7 @@ public class PersonDao {
 
             logger.debug("Found the Person in the Database with id {}", id);
         } catch (SQLException e) {
-            logger.error("The Person with id {} was not found", id, e);
+            logger.error("The Person with id {} have not been found", id, e);
         }
 
         return person;
