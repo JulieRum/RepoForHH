@@ -142,7 +142,7 @@ public class PersonDao {
         List<Person> people = new ArrayList<>();
 
         try {
-            PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM first_db_schema.person WHERE firstname=?");
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM first_db_schema.person WHERE firstname ILIKE ?");
             preparedStatement.setString(1, keyword);
 
             ResultSet resultset = preparedStatement.executeQuery();
