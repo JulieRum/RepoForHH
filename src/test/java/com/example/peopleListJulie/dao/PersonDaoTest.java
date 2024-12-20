@@ -196,7 +196,7 @@ class PersonDaoTest {
         String keyword = "Key";
         PreparedStatement preparedStatement = mock(PreparedStatement.class);
         ResultSet resultSet = mock(ResultSet.class);
-        doReturn(preparedStatement).when(connection).prepareStatement("SELECT * FROM first_db_schema.person WHERE firstname=?");
+        doReturn(preparedStatement).when(connection).prepareStatement("SELECT * FROM first_db_schema.person WHERE firstname ILIKE ?");
         doReturn(resultSet).when(preparedStatement).executeQuery();
 
         when(resultSet.next())
