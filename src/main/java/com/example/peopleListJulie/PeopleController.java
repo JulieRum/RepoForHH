@@ -24,7 +24,7 @@ public class PeopleController {
 
     @GetMapping()
     public String findAll(Model model) {
-        logger.info("Getting all people from database");
+        logger.info("Getting а list of people");
         model.addAttribute("people", personDao.findAll());
         logger.debug("Successfully found {} people", personDao.findAll().size());
         return "people/index";
@@ -33,15 +33,15 @@ public class PeopleController {
 
     @GetMapping("/{id}")
     public String findById(@PathVariable("id") int id, Model model) {
-        logger.info("Get person with id: {}", id);
+        logger.info("Get a person with id: {}", id);
         model.addAttribute("person", personDao.findById(id));
-        logger.debug("Successfully found person: {}", personDao.findById(id));
+        logger.debug("Successfully found the person with id {}", personDao.findById(id));
         return "people/show";
     }
 
     @GetMapping("/new")
     public String newPerson(@ModelAttribute("person") Person person) {
-        logger.info("Opening form for Creating a new Person");
+        logger.info("Opening the form for creating a new person");
         return "people/new";
     }
 
@@ -59,10 +59,10 @@ public class PeopleController {
 
     @GetMapping("/{id}/edit")
     public String edit(@PathVariable("id") int id, Model model) {
-        logger.info("Opening edit form for person with id: {}", id);
+        logger.info("Opening edit form for the person with id: {}", id);
         Person person = personDao.findById(id);
         model.addAttribute("person", person);
-        logger.debug("Loaded person for editing: {}", person);
+        logger.debug("Loaded the person for editing: {}", person);
         return "people/edit";
     }
 
@@ -74,23 +74,23 @@ public class PeopleController {
             return "people/edit";
         }
         personDao.update(id, person);
-        logger.info("Person with id {} have been updated", id);
+        logger.info("The person with id {} have been updated", id);
         return "redirect:/people";
     }
 
     @DeleteMapping("/{id}")
     public String delete(@PathVariable("id") int id) {
-        logger.info("Deleting a person with id {}", id);
+        logger.info("Deleting the person with id {}", id);
         personDao.delete(id);
-        logger.debug("Successfully deleted person with id {}", id);
+        logger.debug("Successfully deleted the person with id {}", id);
         return "redirect:/people";
     }
 
     @GetMapping("/found")
     public String find(Model model, @RequestParam("keyword") String keyword) {
-        logger.info("Searching a person with the First name {}", keyword);
+        logger.info("Searching the person with the First name {}", keyword);
         model.addAttribute("people", personDao.findByKeyword(keyword));
-        logger.debug("Found a person with the First name {}", keyword);
+        logger.debug("Found the person with the First name {}", keyword);
         return "people/found";
     }
 

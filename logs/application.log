@@ -239,3 +239,53 @@
 2024-12-17T20:48:26.203+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Executing 'findByKeyword' the person with keyword boby
 2024-12-17T20:48:26.204+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Found 1 people with a keyword boby
 2024-12-17T20:48:26.204+02:00 DEBUG 45944 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Found a person with the First name boby
+2024-12-17T21:38:50.939+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:38:50.940+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:38:50.941+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T21:38:50.942+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:38:50.943+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T21:38:50.944+02:00 DEBUG 45944 --- [http-nio-8080-exec-10] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T21:38:54.517+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Get person with id: 13
+2024-12-17T21:38:54.517+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.example.peopleListJulie.dao.PersonDao  : Executing 'findById'
+2024-12-17T21:38:54.518+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.example.peopleListJulie.dao.PersonDao  : Executing 'findById'
+2024-12-17T21:38:54.519+02:00 DEBUG 45944 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=13, Tatiana Pankratova}
+2024-12-17T21:39:18.712+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:39:18.713+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:39:18.716+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T21:39:18.717+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:39:18.719+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T21:39:18.719+02:00 DEBUG 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T21:39:24.200+02:00  INFO 45944 --- [http-nio-8080-exec-3] c.e.peopleListJulie.PeopleController     : Opening form for Creating a new Person
+2024-12-17T21:40:13.105+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.example.peopleListJulie.dao.PersonDao  : Executing 'save' person Person{id=0, Cheburashka Genina}
+2024-12-17T21:40:13.120+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.example.peopleListJulie.dao.PersonDao  : A new person have been saved in the Database: Person{id=0, Cheburashka Genina}
+2024-12-17T21:40:13.121+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.e.peopleListJulie.PeopleController     : Successfully created a new person: Person{id=0, Cheburashka Genina}
+2024-12-17T21:40:13.126+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:40:13.126+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:13.127+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:13.127+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:13.128+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:13.128+02:00 DEBUG 45944 --- [http-nio-8080-exec-6] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
+2024-12-17T21:40:15.905+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:40:15.906+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:15.906+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:15.907+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:15.907+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:15.907+02:00 DEBUG 45944 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
+2024-12-17T21:40:22.733+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:40:22.733+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:22.734+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:22.735+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:22.737+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:22.737+02:00 DEBUG 45944 --- [http-nio-8080-exec-8] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
+2024-12-17T21:40:36.936+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:40:36.937+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:36.938+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:36.938+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:36.939+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:36.940+02:00 DEBUG 45944 --- [http-nio-8080-exec-9] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
+2024-12-17T21:45:40.340+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:45:40.341+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:45:40.343+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:45:40.344+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:45:40.345+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:45:40.345+02:00 DEBUG 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
