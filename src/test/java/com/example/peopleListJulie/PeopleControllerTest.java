@@ -171,7 +171,7 @@ class PeopleControllerTest {
     }
 
     @Test
-    @DisplayName("find находит человека по ключи и перенаправляет на страницу people/found")
+    @DisplayName("find находит человека по ключю и перенаправляет на страницу people/found")
     void find_ShouldReturnOnThePagePeopleFound() {
         //given
         String keyword = "Something";

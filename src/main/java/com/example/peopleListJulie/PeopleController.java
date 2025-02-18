@@ -10,6 +10,8 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @Controller
 @RequestMapping("/people")
 public class PeopleController {
@@ -25,8 +27,9 @@ public class PeopleController {
     @GetMapping()
     public String findAll(Model model) {
         logger.info("Getting а list of people");
-        model.addAttribute("people", personDao.findAll());
-        logger.debug("Successfully found {} people", personDao.findAll().size());
+        List<Person> allPeople = personDao.findAll();
+        model.addAttribute("people", allPeople);
+        logger.debug("Successfully found {} people", allPeople.size());
         return "people/index";
 
     }
@@ -34,8 +37,9 @@ public class PeopleController {
     @GetMapping("/{id}")
     public String findById(@PathVariable("id") int id, Model model) {
         logger.info("Get a person with id: {}", id);
-        model.addAttribute("person", personDao.findById(id));
-        logger.debug("Successfully found the person with id {}", personDao.findById(id));
+        Person person = personDao.findById(id);
+        model.addAttribute("person", person);
+        logger.debug("Successfully found the person with id {}", person);
         return "people/show";
     }
 
@@ -48,10 +52,15 @@ public class PeopleController {
     @PostMapping()
     public String create(@ModelAttribute("person") @Valid Person person, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
-            logger.warn("An error while creating a person");
+
+            String errors = bindingResult.getAllErrors().stream()
+                    .map(error -> error.getDefaultMessage())
+                    .reduce((msg1, msg2) -> msg1 + "; " + msg2)
+                    .orElse("Unknown error");
+
+            logger.warn("An error(s) while creating a person: {}", errors);
             return "people/new";
         }
-
         personDao.save(person);
         logger.info("Successfully created a new person: {}", person);
         return "redirect:/people";
