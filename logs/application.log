@@ -1,0 +1,291 @@
+2024-12-17T18:00:34.633+02:00  INFO 43403 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 43403 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:00:34.635+02:00  INFO 43403 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:00:34.687+02:00  INFO 43403 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:00:34.688+02:00  INFO 43403 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:00:35.685+02:00  INFO 43403 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:00:35.699+02:00  INFO 43403 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:00:35.700+02:00  INFO 43403 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:00:35.740+02:00  INFO 43403 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:00:35.740+02:00  INFO 43403 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1052 ms
+2024-12-17T18:00:36.177+02:00  INFO 43403 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:00:36.203+02:00  INFO 43403 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:00:36.212+02:00  INFO 43403 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 2.033 seconds (process running for 2.453)
+2024-12-17T18:00:41.981+02:00  INFO 43403 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:00:41.982+02:00  INFO 43403 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:00:41.983+02:00  INFO 43403 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T18:00:42.013+02:00  INFO 43403 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T18:00:42.024+02:00 DEBUG 43403 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T18:00:44.472+02:00  INFO 43403 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Get person with id: 10
+2024-12-17T18:00:44.481+02:00 DEBUG 43403 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found person: com.example.peopleListJulie.models.Person@327a7526
+2024-12-17T18:08:43.821+02:00  INFO 43403 --- [http-nio-8080-exec-5] c.e.peopleListJulie.PeopleController     : Get person with id: 12
+2024-12-17T18:08:43.823+02:00 DEBUG 43403 --- [http-nio-8080-exec-5] c.e.peopleListJulie.PeopleController     : Successfully found person: com.example.peopleListJulie.models.Person@6f54190c
+2024-12-17T18:15:46.787+02:00  INFO 43612 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 43612 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:15:46.789+02:00  INFO 43612 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:15:46.844+02:00  INFO 43612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:15:46.844+02:00  INFO 43612 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:15:47.881+02:00  INFO 43612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:15:47.894+02:00  INFO 43612 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:15:47.894+02:00  INFO 43612 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:15:47.930+02:00  INFO 43612 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:15:47.930+02:00  INFO 43612 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1085 ms
+2024-12-17T18:15:48.400+02:00  INFO 43612 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:15:48.424+02:00  INFO 43612 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:15:48.433+02:00  INFO 43612 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 2.06 seconds (process running for 2.484)
+2024-12-17T18:15:54.316+02:00  INFO 43612 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:15:54.317+02:00  INFO 43612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:15:54.318+02:00  INFO 43612 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T18:15:54.360+02:00  INFO 43612 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T18:15:54.376+02:00 DEBUG 43612 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T18:16:34.659+02:00  INFO 43612 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Get person with id: 13
+2024-12-17T18:16:34.666+02:00 DEBUG 43612 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=13, firstName='Tatiana', lastName='Pankratova'}
+2024-12-17T18:16:41.605+02:00  INFO 43612 --- [http-nio-8080-exec-3] c.e.peopleListJulie.PeopleController     : Get person with id: 10
+2024-12-17T18:16:41.607+02:00 DEBUG 43612 --- [http-nio-8080-exec-3] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=10, firstName='Arkadii', lastName='Kriv4ikov'}
+2024-12-17T18:18:25.059+02:00  INFO 43666 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 43666 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:18:25.062+02:00  INFO 43666 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:18:25.115+02:00  INFO 43666 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:18:25.115+02:00  INFO 43666 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:18:26.200+02:00  INFO 43666 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:18:26.215+02:00  INFO 43666 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:18:26.216+02:00  INFO 43666 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:18:26.255+02:00  INFO 43666 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:18:26.256+02:00  INFO 43666 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1140 ms
+2024-12-17T18:18:26.725+02:00  INFO 43666 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:18:26.752+02:00  INFO 43666 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:18:26.761+02:00  INFO 43666 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 2.137 seconds (process running for 2.558)
+2024-12-17T18:18:29.899+02:00  INFO 43666 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:18:29.900+02:00  INFO 43666 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:18:29.902+02:00  INFO 43666 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T18:18:29.948+02:00  INFO 43666 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T18:18:29.963+02:00 DEBUG 43666 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T18:18:31.751+02:00  INFO 43666 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Get person with id: 14
+2024-12-17T18:18:31.758+02:00 DEBUG 43666 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=14, Bob Marley'}
+2024-12-17T18:19:06.179+02:00  INFO 43687 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 43687 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:19:06.181+02:00  INFO 43687 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:19:06.237+02:00  INFO 43687 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:19:06.237+02:00  INFO 43687 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:19:07.233+02:00  INFO 43687 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:19:07.246+02:00  INFO 43687 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:19:07.246+02:00  INFO 43687 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:19:07.282+02:00  INFO 43687 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:19:07.282+02:00  INFO 43687 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1044 ms
+2024-12-17T18:19:07.764+02:00  INFO 43687 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:19:07.790+02:00  INFO 43687 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:19:07.798+02:00  INFO 43687 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 2.064 seconds (process running for 2.479)
+2024-12-17T18:19:13.546+02:00  INFO 43687 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:19:13.547+02:00  INFO 43687 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:19:13.549+02:00  INFO 43687 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-17T18:19:13.604+02:00  INFO 43687 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Get person with id: 11
+2024-12-17T18:19:13.625+02:00 DEBUG 43687 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=11, Natasha Yarmaki}
+2024-12-17T18:21:20.035+02:00  INFO 43733 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 43733 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:21:20.037+02:00  INFO 43733 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:21:20.089+02:00  INFO 43733 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:21:20.090+02:00  INFO 43733 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:21:21.083+02:00  INFO 43733 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:21:21.094+02:00  INFO 43733 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:21:21.094+02:00  INFO 43733 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:21:21.126+02:00  INFO 43733 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:21:21.126+02:00  INFO 43733 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2024-12-17T18:21:21.541+02:00  INFO 43733 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:21:21.565+02:00  INFO 43733 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:21:21.575+02:00  INFO 43733 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 1.946 seconds (process running for 2.367)
+2024-12-17T18:21:28.189+02:00  INFO 43733 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:21:28.190+02:00  INFO 43733 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:21:28.191+02:00  INFO 43733 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T18:21:28.243+02:00  INFO 43733 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Create new Person
+2024-12-17T18:31:02.409+02:00  INFO 43733 --- [http-nio-8080-exec-4] c.e.peopleListJulie.PeopleController     : Get person with id: 13
+2024-12-17T18:31:02.447+02:00 DEBUG 43733 --- [http-nio-8080-exec-4] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=13, Tatiana Pankratova}
+2024-12-17T18:37:02.499+02:00  INFO 43968 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 43968 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:37:02.502+02:00  INFO 43968 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:37:02.557+02:00  INFO 43968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:37:02.557+02:00  INFO 43968 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:37:03.537+02:00  INFO 43968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:37:03.549+02:00  INFO 43968 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:37:03.549+02:00  INFO 43968 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:37:03.584+02:00  INFO 43968 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:37:03.585+02:00  INFO 43968 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1027 ms
+2024-12-17T18:37:04.033+02:00  INFO 43968 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:37:04.057+02:00  INFO 43968 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:37:04.065+02:00  INFO 43968 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 1.998 seconds (process running for 2.431)
+2024-12-17T18:37:17.797+02:00  INFO 43968 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:37:17.797+02:00  INFO 43968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:37:17.798+02:00  INFO 43968 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T18:37:17.849+02:00  INFO 43968 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Get person with id: 11
+2024-12-17T18:37:17.867+02:00 DEBUG 43968 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=11, Natasha Yarmaki}
+2024-12-17T18:37:21.611+02:00  INFO 43968 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Opening edit form for person with id: 11
+2024-12-17T18:37:21.612+02:00 DEBUG 43968 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Loaded person for editing: Person{id=11, Natasha Yarmaki}
+2024-12-17T18:37:29.805+02:00  INFO 43968 --- [http-nio-8080-exec-4] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T18:37:29.806+02:00 DEBUG 43968 --- [http-nio-8080-exec-4] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T18:43:11.669+02:00  INFO 44064 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 44064 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:43:11.672+02:00  INFO 44064 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:43:11.725+02:00  INFO 44064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:43:11.725+02:00  INFO 44064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:43:12.746+02:00  INFO 44064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:43:12.758+02:00  INFO 44064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:43:12.758+02:00  INFO 44064 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:43:12.794+02:00  INFO 44064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:43:12.795+02:00  INFO 44064 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1068 ms
+2024-12-17T18:43:13.251+02:00  INFO 44064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:43:13.276+02:00  INFO 44064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:43:13.284+02:00  INFO 44064 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 2.035 seconds (process running for 2.461)
+2024-12-17T18:43:38.225+02:00  INFO 44064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:43:38.226+02:00  INFO 44064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:43:38.227+02:00  INFO 44064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T18:43:38.288+02:00  INFO 44064 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Get person with id: 14
+2024-12-17T18:43:38.309+02:00 DEBUG 44064 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=14, Bob Marley}
+2024-12-17T18:43:40.321+02:00  INFO 44064 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Opening edit form for person with id: 14
+2024-12-17T18:43:40.322+02:00 DEBUG 44064 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Loaded person for editing: Person{id=14, Bob Marley}
+2024-12-17T18:43:45.953+02:00  WARN 44064 --- [http-nio-8080-exec-3] c.e.peopleListJulie.PeopleController     : Email error Field error in object 'person' on field 'email': rejected value [Bobmail.ru]; codes [Email.person.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [person.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@9b0c0b9,.*]; default message [email should be valid]
+2024-12-17T18:44:48.125+02:00  INFO 44064 --- [http-nio-8080-exec-6] c.e.peopleListJulie.PeopleController     : Person with id 14 have been updated
+2024-12-17T18:44:48.134+02:00  INFO 44064 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T18:44:48.136+02:00 DEBUG 44064 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T18:45:40.324+02:00  INFO 44064 --- [http-nio-8080-exec-8] c.e.peopleListJulie.PeopleController     : Get person with id: 13
+2024-12-17T18:45:40.326+02:00 DEBUG 44064 --- [http-nio-8080-exec-8] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=13, Tatiana Pankratova}
+2024-12-17T18:52:16.367+02:00  INFO 44212 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 44212 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:52:16.369+02:00  INFO 44212 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:52:16.420+02:00  INFO 44212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:52:16.421+02:00  INFO 44212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:52:17.375+02:00  INFO 44212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:52:17.386+02:00  INFO 44212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:52:17.386+02:00  INFO 44212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:52:17.419+02:00  INFO 44212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:52:17.419+02:00  INFO 44212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 998 ms
+2024-12-17T18:52:17.842+02:00  INFO 44212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:52:17.867+02:00  INFO 44212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:52:17.875+02:00  INFO 44212 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 1.913 seconds (process running for 2.328)
+2024-12-17T18:52:43.880+02:00  INFO 44212 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:52:43.881+02:00  INFO 44212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:52:43.882+02:00  INFO 44212 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T18:52:43.922+02:00  INFO 44212 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Searching a person with the First name oksana
+2024-12-17T18:52:43.939+02:00 DEBUG 44212 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found a person with the First name oksana
+2024-12-17T18:52:53.658+02:00  INFO 44212 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Searching a person with the First name Oksana
+2024-12-17T18:52:53.660+02:00 DEBUG 44212 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found a person with the First name Oksana
+2024-12-17T18:56:52.186+02:00  INFO 44295 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 44295 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T18:56:52.188+02:00  INFO 44295 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T18:56:52.249+02:00  INFO 44295 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T18:56:52.250+02:00  INFO 44295 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T18:56:53.235+02:00  INFO 44295 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T18:56:53.247+02:00  INFO 44295 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T18:56:53.248+02:00  INFO 44295 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T18:56:53.284+02:00  INFO 44295 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T18:56:53.284+02:00  INFO 44295 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
+2024-12-17T18:56:53.731+02:00  INFO 44295 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T18:56:53.755+02:00  INFO 44295 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T18:56:53.763+02:00  INFO 44295 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 2.006 seconds (process running for 2.428)
+2024-12-17T18:57:12.651+02:00  INFO 44295 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T18:57:12.652+02:00  INFO 44295 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T18:57:12.653+02:00  INFO 44295 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T18:57:12.695+02:00  INFO 44295 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Searching a person with the First name Oksana
+2024-12-17T18:57:12.715+02:00 DEBUG 44295 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Found a person with the First name Oksana
+2024-12-17T18:57:23.162+02:00  INFO 44295 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Searching a person with the First name boby
+2024-12-17T18:57:23.163+02:00 DEBUG 44295 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Found a person with the First name boby
+2024-12-17T20:46:09.853+02:00  INFO 44295 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-17T20:46:09.979+02:00  INFO 44295 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 44295 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T20:46:09.980+02:00  INFO 44295 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T20:46:10.319+02:00  INFO 44295 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T20:46:10.322+02:00  INFO 44295 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T20:46:10.322+02:00  INFO 44295 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T20:46:10.336+02:00  INFO 44295 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T20:46:10.337+02:00  INFO 44295 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 353 ms
+2024-12-17T20:46:10.347+02:00  INFO 44295 --- [restartedMain] c.example.peopleListJulie.dao.PersonDao  : Postgresql loaded
+2024-12-17T20:46:10.390+02:00  INFO 44295 --- [restartedMain] c.example.peopleListJulie.dao.PersonDao  : Successful connection to Database
+2024-12-17T20:46:10.509+02:00  INFO 44295 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T20:46:10.517+02:00  INFO 44295 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T20:46:10.522+02:00  INFO 44295 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 0.582 seconds (process running for 6321.861)
+2024-12-17T20:46:10.524+02:00  INFO 44295 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-12-17T20:47:46.138+02:00  INFO 45944 --- [restartedMain] c.e.p.ServingWebContentApplication       : Starting ServingWebContentApplication using Java 20.0.1 with PID 45944 (/Users/iuliia/Учёбка/PeopleListJulie/target/classes started by iuliia in /Users/iuliia/Учёбка/PeopleListJulie)
+2024-12-17T20:47:46.141+02:00  INFO 45944 --- [restartedMain] c.e.p.ServingWebContentApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-17T20:47:46.197+02:00  INFO 45944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-17T20:47:46.198+02:00  INFO 45944 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-17T20:47:47.224+02:00  INFO 45944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-17T20:47:47.236+02:00  INFO 45944 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-17T20:47:47.237+02:00  INFO 45944 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-12-17T20:47:47.273+02:00  INFO 45944 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-17T20:47:47.273+02:00  INFO 45944 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1075 ms
+2024-12-17T20:47:47.324+02:00  INFO 45944 --- [restartedMain] c.example.peopleListJulie.dao.PersonDao  : Postgresql loaded
+2024-12-17T20:47:47.398+02:00  INFO 45944 --- [restartedMain] c.example.peopleListJulie.dao.PersonDao  : Successful connection to Database
+2024-12-17T20:47:47.724+02:00  INFO 45944 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-17T20:47:47.752+02:00  INFO 45944 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-12-17T20:47:47.762+02:00  INFO 45944 --- [restartedMain] c.e.p.ServingWebContentApplication       : Started ServingWebContentApplication in 2.069 seconds (process running for 2.535)
+2024-12-17T20:48:03.379+02:00  INFO 45944 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-17T20:48:03.380+02:00  INFO 45944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-17T20:48:03.382+02:00  INFO 45944 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-17T20:48:03.420+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T20:48:03.420+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T20:48:03.431+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T20:48:03.432+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T20:48:03.433+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T20:48:03.433+02:00 DEBUG 45944 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T20:48:05.550+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Get person with id: 12
+2024-12-17T20:48:05.550+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findById'
+2024-12-17T20:48:05.559+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findById'
+2024-12-17T20:48:05.560+02:00 DEBUG 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=12, oksana RUMIANTSEVA}
+2024-12-17T20:48:07.999+02:00  INFO 45944 --- [http-nio-8080-exec-3] c.e.peopleListJulie.PeopleController     : Opening edit form for person with id: 12
+2024-12-17T20:48:07.999+02:00  INFO 45944 --- [http-nio-8080-exec-3] c.example.peopleListJulie.dao.PersonDao  : Executing 'findById'
+2024-12-17T20:48:08.001+02:00 DEBUG 45944 --- [http-nio-8080-exec-3] c.e.peopleListJulie.PeopleController     : Loaded person for editing: Person{id=12, oksana RUMIANTSEVA}
+2024-12-17T20:48:12.993+02:00  INFO 45944 --- [http-nio-8080-exec-4] c.example.peopleListJulie.dao.PersonDao  : Executing 'update' person Person{id=12, Oksana RUMIANTSEVA}
+2024-12-17T20:48:12.996+02:00  INFO 45944 --- [http-nio-8080-exec-4] c.example.peopleListJulie.dao.PersonDao  : The person Person{id=12, Oksana RUMIANTSEVA} have been updated in the Database
+2024-12-17T20:48:12.996+02:00  INFO 45944 --- [http-nio-8080-exec-4] c.e.peopleListJulie.PeopleController     : Person with id 12 have been updated
+2024-12-17T20:48:13.003+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T20:48:13.003+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T20:48:13.004+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T20:48:13.004+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T20:48:13.005+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T20:48:13.005+02:00 DEBUG 45944 --- [http-nio-8080-exec-5] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T20:48:20.979+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.e.peopleListJulie.PeopleController     : Searching a person with the First name bob
+2024-12-17T20:48:20.980+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Executing 'findByKeyword' the person with keyword bob
+2024-12-17T20:48:20.981+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Found 0 people with a keyword bob
+2024-12-17T20:48:20.982+02:00 DEBUG 45944 --- [http-nio-8080-exec-6] c.e.peopleListJulie.PeopleController     : Found a person with the First name bob
+2024-12-17T20:48:26.202+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Searching a person with the First name boby
+2024-12-17T20:48:26.203+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Executing 'findByKeyword' the person with keyword boby
+2024-12-17T20:48:26.204+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Found 1 people with a keyword boby
+2024-12-17T20:48:26.204+02:00 DEBUG 45944 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Found a person with the First name boby
+2024-12-17T21:38:50.939+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:38:50.940+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:38:50.941+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T21:38:50.942+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:38:50.943+02:00  INFO 45944 --- [http-nio-8080-exec-10] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T21:38:50.944+02:00 DEBUG 45944 --- [http-nio-8080-exec-10] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T21:38:54.517+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Get person with id: 13
+2024-12-17T21:38:54.517+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.example.peopleListJulie.dao.PersonDao  : Executing 'findById'
+2024-12-17T21:38:54.518+02:00  INFO 45944 --- [http-nio-8080-exec-1] c.example.peopleListJulie.dao.PersonDao  : Executing 'findById'
+2024-12-17T21:38:54.519+02:00 DEBUG 45944 --- [http-nio-8080-exec-1] c.e.peopleListJulie.PeopleController     : Successfully found person: Person{id=13, Tatiana Pankratova}
+2024-12-17T21:39:18.712+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:39:18.713+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:39:18.716+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T21:39:18.717+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:39:18.719+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Found 6 people in the Database
+2024-12-17T21:39:18.719+02:00 DEBUG 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found 6 people
+2024-12-17T21:39:24.200+02:00  INFO 45944 --- [http-nio-8080-exec-3] c.e.peopleListJulie.PeopleController     : Opening form for Creating a new Person
+2024-12-17T21:40:13.105+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.example.peopleListJulie.dao.PersonDao  : Executing 'save' person Person{id=0, Cheburashka Genina}
+2024-12-17T21:40:13.120+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.example.peopleListJulie.dao.PersonDao  : A new person have been saved in the Database: Person{id=0, Cheburashka Genina}
+2024-12-17T21:40:13.121+02:00  INFO 45944 --- [http-nio-8080-exec-5] c.e.peopleListJulie.PeopleController     : Successfully created a new person: Person{id=0, Cheburashka Genina}
+2024-12-17T21:40:13.126+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:40:13.126+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:13.127+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:13.127+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:13.128+02:00  INFO 45944 --- [http-nio-8080-exec-6] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:13.128+02:00 DEBUG 45944 --- [http-nio-8080-exec-6] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
+2024-12-17T21:40:15.905+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:40:15.906+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:15.906+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:15.907+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:15.907+02:00  INFO 45944 --- [http-nio-8080-exec-7] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:15.907+02:00 DEBUG 45944 --- [http-nio-8080-exec-7] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
+2024-12-17T21:40:22.733+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:40:22.733+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:22.734+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:22.735+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:22.737+02:00  INFO 45944 --- [http-nio-8080-exec-8] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:22.737+02:00 DEBUG 45944 --- [http-nio-8080-exec-8] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
+2024-12-17T21:40:36.936+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:40:36.937+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:36.938+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:36.938+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:40:36.939+02:00  INFO 45944 --- [http-nio-8080-exec-9] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:40:36.940+02:00 DEBUG 45944 --- [http-nio-8080-exec-9] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
+2024-12-17T21:45:40.340+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Getting all people from database
+2024-12-17T21:45:40.341+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:45:40.343+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:45:40.344+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Executing 'findAll'
+2024-12-17T21:45:40.345+02:00  INFO 45944 --- [http-nio-8080-exec-2] c.example.peopleListJulie.dao.PersonDao  : Found 7 people in the Database
+2024-12-17T21:45:40.345+02:00 DEBUG 45944 --- [http-nio-8080-exec-2] c.e.peopleListJulie.PeopleController     : Successfully found 7 people
